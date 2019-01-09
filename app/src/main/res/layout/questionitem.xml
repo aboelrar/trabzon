@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="السوال الاول"
+        android:id="@+id/question"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_12sdp"
+        android:paddingRight="@dimen/_15sdp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/_15sdp"
+        android:id="@+id/answer"
+        android:text="الاجابه الاجابه الاجابه السااص ااغبالابلغسغلالالاصيلصلي"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textSize="@dimen/_11sdp"
+        android:paddingRight="@dimen/_15sdp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@color/gray"/>
+
+</LinearLayout>

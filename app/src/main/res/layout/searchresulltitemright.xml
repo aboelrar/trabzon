@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="@dimen/_110sdp"
+    android:orientation="vertical"
+    android:gravity="right"
+    android:id="@+id/trips"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_109sdp"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:weightSum="1">
+    <LinearLayout
+        android:layout_weight=".65"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_weight=".75"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:gravity="right"
+            android:layout_height="0dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_14ssp"
+                android:id="@+id/tripname"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="مدينه الاسكندريه"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tripdescripition"
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:text="مدينه الاسكندريه تعد من اعظم المدن الموجوده فى مصر مدينه ساحليه تقع على البحر المتوسط"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight=".2"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:gravity="right"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:layout_weight=".5"
+                android:layout_width="0dp"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/_11ssp"
+                    android:layout_marginRight="@dimen/_3sdp"
+                    android:text="تقييم"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:id="@+id/peoplenum"
+                    android:textSize="@dimen/_11ssp"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="center"
+                    android:text="531"/>
+
+            </LinearLayout>
+ <LinearLayout
+     android:layout_width="0dp"
+     android:gravity="center"
+     android:layout_height="match_parent"
+     android:layout_weight=".45">
+
+            <RatingBar
+                android:id="@+id/ratings"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:isIndicator="true"
+                android:focusable="false"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:clickable="false"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:progressTint="@color/orange"
+                android:progressBackgroundTint="@android:color/black"
+                android:secondaryProgressTint="@android:color/black"
+                android:numStars="5"
+                android:rating="5" />
+ </LinearLayout>
+            <TextView
+                android:layout_weight=".1"
+                android:layout_width="0dp"
+                android:text="4.5"
+                android:id="@+id/value"
+                android:textSize="@dimen/_10ssp"
+                android:gravity="center"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_10sdp"
+        android:scaleType="fitXY"
+        android:id="@+id/tripimg"
+        android:src="@drawable/ok"
+        android:layout_weight=".35"/>
+
+</LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/gray"/>
+</LinearLayout>

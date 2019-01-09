@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.Activity.aboutUs">
+   <include layout="@layout/appbarleft"/>
+    <android.support.v4.widget.NestedScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/scrollView"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/_1sdp"
+       android:background="@color/gray"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:src="@drawable/samalogo"/>
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="@dimen/_30sdp"
+     android:gravity="center"
+     android:textColor="@android:color/white"
+     android:textSize="@dimen/_13ssp"
+     android:id="@+id/whoTitle"
+     android:background="@color/wallet_holo_blue_light"
+     android:layout_marginTop="@dimen/_20sdp"
+     android:text="من نحن"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/_12ssp"
+        android:id="@+id/whoText"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:text="ياحة والسفر ويوفرها للزائر بشكل سريع و آني عن طريق وسائل الاتصال الحديثة من بريد الكتروني و شبكات اجتماعية، كما يقدم الموقع التقارير الشاملة للفنادق حول العالم مزودة بصور حقيقة ومعلومات مهمة وعناوين تلك الفنا"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_13ssp"
+        android:id="@+id/ourVisionTitle"
+        android:background="@color/wallet_holo_blue_light"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="روياتنا"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/ourVisionText"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_12ssp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:text="ياحة والسفر ويوفرها للزائر بشكل سريع و آني عن طريق وسائل الاتصال الحديثة من بريد الكتروني و شبكات اجتماعية، كما يقدم الموقع التقارير الشاملة للفنادق حول العالم مزودة بصور حقيقة ومعلومات مهمة وعناوين تلك الفنا"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:id="@+id/overviewTitle"
+        android:textSize="@dimen/_13ssp"
+        android:background="@color/wallet_holo_blue_light"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="نظره عامه"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/overviewText"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:text="ياحة والسفر ويوفرها للزائر بشكل سريع و آني عن طريق وسائل الاتصال الحديثة من بريد الكتروني و شبكات اجتماعية، كما يقدم الموقع التقارير الشاملة للفنادق حول العالم مزودة بصور حقيقة ومعلومات مهمة وعناوين تلك الفنا"/>
+
+</LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

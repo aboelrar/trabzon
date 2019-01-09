@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.begroup_web_0.trabzon">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA1w9SLlQr-Z3aPRVKSGWNX94NL3NJznzQ" />
+
+        <activity android:name=".View.Home" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".View.Activity.search">
+
+        </activity>
+        <activity android:name=".View.Activity.searchResult" />
+        <activity android:name=".View.Activity.tripDetails"></activity>
+        <activity android:name=".View.fragments.mapsforitem" />
+        <activity android:name=".View.Activity.Login">
+
+        </activity>
+        <activity android:name=".View.Activity.signup" />
+        <activity android:name=".View.Activity.contactus" />
+        <activity android:name=".View.Activity.editData" />
+        <activity android:name=".View.Activity.reservation" />
+        <activity android:name=".View.Activity.samaTrips" />
+        <activity android:name=".View.Activity.live" />
+        <activity android:name=".View.Activity.aboutUs"></activity>
+        <activity android:name=".View.Activity.questionAndAnswer">
+
+        </activity>
+        <activity android:name=".View.Activity.userProfile">
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/trip"
+    android:layout_height="@dimen/_100sdp">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="@dimen/_3sdp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="@dimen/_6sdp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_2sdp"
+                android:background="#e2e0e0"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_weight=".6"
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:text="برج القاهره"
+                        android:textSize="@dimen/_12ssp"
+                        android:paddingRight="@dimen/_10sdp"
+                        android:gravity="center_vertical"
+                        android:id="@+id/placeName"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        />
+
+                    <RatingBar
+                        android:id="@+id/ratings"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:isIndicator="true"
+                        android:focusable="false"
+                        android:scaleX="1.1"
+                        android:scaleY="1.1"
+                        android:clickable="false"
+                        android:layout_marginRight="@dimen/_9sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:progressTint="@color/orange"
+                        android:progressBackgroundTint="@android:color/black"
+                        android:secondaryProgressTint="@android:color/black"
+                        android:numStars="5"
+                        android:rating="5" />
+            </LinearLayout>
+                <ImageView
+                    android:layout_weight=".35"
+                    android:layout_width="0dp"
+                    android:src="@drawable/ok"
+                    android:scaleType="fitXY"
+                    android:id="@+id/catimg"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

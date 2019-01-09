@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="@dimen/_50sdp"
+    android:layout_marginLeft="@dimen/_15sdp"
+    android:layout_marginRight="@dimen/_20sdp"
+    android:id="@+id/list_item"
+    android:layout_height="@dimen/_65sdp">
+     <ImageView
+         android:layout_width="@dimen/_40sdp"
+         android:layout_height="@dimen/_40sdp"
+         android:padding="@dimen/_6sdp"
+         android:layout_gravity="center_horizontal"
+         android:id="@+id/baricon"
+         android:background="@drawable/cricleimage"
+         android:src="@drawable/car"/>
+     <TextView
+         android:layout_width="@dimen/_50sdp"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:textSize="@dimen/_10ssp"
+         android:id="@+id/barname"
+         android:textColor="@android:color/black"
+         android:layout_marginTop="@dimen/_3sdp"
+         android:text="cars" />
+</LinearLayout>

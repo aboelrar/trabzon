@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/search"
+    android:layout_height="@dimen/_35sdp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+<TextView
+    android:layout_weight=".9"
+    android:layout_width="0dp"
+    android:layout_height="@dimen/_34sdp"
+    android:text="History $ Musuem"
+    android:gravity="center_vertical"
+    android:paddingLeft="@dimen/_10sdp"
+    android:id="@+id/searchitem"
+    android:textColor="@android:color/black"
+    android:textStyle="italic"
+    android:textSize="@dimen/_12ssp"
+    />
+        <ImageView
+            android:layout_weight=".1"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_15sdp"
+            android:text="History $ Musuem"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/rightarrow"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textColor="@android:color/black"
+            android:textStyle="italic"
+            android:textSize="@dimen/_12ssp"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/gray"
+        />
+</LinearLayout>
